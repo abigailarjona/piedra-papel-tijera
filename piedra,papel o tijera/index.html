@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-compatible" content="width
+    =device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    
+
+    <title> Piedra, papel o tijera</title>
+</head>
+<body>
+    <div class="containerAll">
+        <header class="header">
+            <div class="header-div">
+                <p class="p-div" id="marcadorUsuario">0</p>
+                <h1 class="h1-div" >Piedra, papel o tijera</h1>
+                <p class="p-div" id="marcadorMaquina">0</p>
+
+            </div>
+        </header>
+    <article class="article">
+        <section class="section">
+            <div class="section-divUsuario">
+                <img src="piedra.jpeg"  id="imgUsuario"  alt="piedra, papel o tijera" class="section-divUsuario-img">
+                <div class="section-divUsuario-buttons">
+                    <button onclick="mostrarPiedra(), correrLogica()" class="section-divUsuario-button">Piedra</button>
+                    <button  onclick="mostrarPapel(), correrLogica()" class="section-divUsuario-button">Papel</button>
+                    <button  onclick="mostrarTijera(), correrLogica()" class="section-divUsuario-button">Tijera</button>
+
+                </div>
+
+            </div>
+            <div class="section-divMaquina">
+                <img src="papel.jpeg" id="imgMaquina" alt="Piedra,papel o tijera" class="section-divMaquina-img">
+            </div>
+
+
+        </section>
+    </article>
+    <script src="app.js"></script>
+
+    </div>
+</body>
+
+
+
+
+</html>
